@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="410" viewBox="0 0 600 410" role="img" aria-labelledby="t d">
+  <title id="t">Programmiersprachen – Sprachverteilung des ausgewerteten Codes</title>
+  <desc id="d">Python 65,3 %; TypeScript 16,8 %; Swift 7,2 %; JavaScript 4,1 %; Shell 3,5 %; CSS 2,0 %; HTML 0,7 %; Astro 0,4 %; PowerShell und PHP zusammen unter 0,1 %. Basis laut Auswertung: 141.648 Codezeilen ohne Leer- und Kommentarzeilen aus ausgewählten lokalen Commit-Ständen (HEAD). Abhängigkeiten, Build-Artefakte und erkannter generierter Code wurden nach dokumentierten Filtern ausgeschlossen. Abweichende Werkzeugfassungen können mehrfach enthalten sein. Keine vollständige GitHub- oder Urheberschaftsstatistik; der Fork-Status aller ausgewerteten Repositorys ist nicht vollständig bestätigt. Stand: 18.10.2026.</desc>
+  <style>
+    .card { fill: #fcfcfb; stroke: #e4e3df; }
+    .h { fill: #0b0b0b; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .sub, .foot { fill: #52514e; font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .foot { fill: #6d6c68; font-size: 11px; }
+    .lbl { fill: #0b0b0b; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .val { fill: #52514e; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-variant-numeric: tabular-nums; }
+    .track { fill: #eeede9; }
+    .bar { fill: #2a78d6; }
+    .rule { stroke: #e4e3df; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #1a1a19; stroke: #2e2e2c; }
+      .h, .lbl { fill: #f0efec; }
+      .sub, .val { fill: #c3c2b7; }
+      .foot { fill: #9a998f; }
+      .track { fill: #262624; }
+      .bar { fill: #3987e5; }
+      .rule { stroke: #2e2e2c; }
+    }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="599" height="409" rx="12"/>
+  <text class="h" x="28" y="42">Programmiersprachen</text>
+  <text class="sub" x="28" y="64">Sprachverteilung · Codezeilen ohne Leer- und Kommentarzeilen</text>
+  <g><title>Python: 65,3 %</title>
+    <text class="lbl" x="28" y="115.5">Python</text>
+    <rect class="track" x="132" y="106.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,106.0h244.27a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-244.27z"/>
+    <text class="val" x="572" y="115.5" text-anchor="end">65,3 %</text>
+  </g>
+  <g><title>TypeScript: 16,8 %</title>
+    <text class="lbl" x="28" y="145.5">TypeScript</text>
+    <rect class="track" x="132" y="136.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,136.0h59.76a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-59.76z"/>
+    <text class="val" x="572" y="145.5" text-anchor="end">16,8 %</text>
+  </g>
+  <g><title>Swift: 7,2 %</title>
+    <text class="lbl" x="28" y="175.5">Swift</text>
+    <rect class="track" x="132" y="166.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,166.0h23.27a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-23.27z"/>
+    <text class="val" x="572" y="175.5" text-anchor="end">7,2 %</text>
+  </g>
+  <g><title>JavaScript: 4,1 %</title>
+    <text class="lbl" x="28" y="205.5">JavaScript</text>
+    <rect class="track" x="132" y="196.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,196.0h11.53a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-11.53z"/>
+    <text class="val" x="572" y="205.5" text-anchor="end">4,1 %</text>
+  </g>
+  <g><title>Shell: 3,5 %</title>
+    <text class="lbl" x="28" y="235.5">Shell</text>
+    <rect class="track" x="132" y="226.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,226.0h9.19a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-9.19z"/>
+    <text class="val" x="572" y="235.5" text-anchor="end">3,5 %</text>
+  </g>
+  <g><title>CSS: 2,0 %</title>
+    <text class="lbl" x="28" y="265.5">CSS</text>
+    <rect class="track" x="132" y="256.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,256.0h3.85a3.851025076245341,3.851025076245341 0 0 1 3.851025076245341,3.851025076245341v2.297949847509318a3.851025076245341,3.851025076245341 0 0 1 -3.851025076245341,3.851025076245341h-3.85z"/>
+    <text class="val" x="572" y="265.5" text-anchor="end">2,0 %</text>
+  </g>
+  <g><title>HTML: 0,7 %</title>
+    <text class="lbl" x="28" y="295.5">HTML</text>
+    <rect class="track" x="132" y="286.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,286.0h1.30a1.303795323619112,1.303795323619112 0 0 1 1.303795323619112,1.303795323619112v7.392409352761776a1.303795323619112,1.303795323619112 0 0 1 -1.303795323619112,1.303795323619112h-1.30z"/>
+    <text class="val" x="572" y="295.5" text-anchor="end">0,7 %</text>
+  </g>
+  <g><title>Astro: 0,4 %</title>
+    <text class="lbl" x="28" y="325.5">Astro</text>
+    <rect class="track" x="132" y="316.0" width="380" height="10" rx="5.0"/>
+    <path class="bar" d="M132,316.0h0.8142a0.8142,0.8142 0 0 1 0.8142,0.8142v8.3716a0.8142,0.8142 0 0 1 -0.8142,0.8142h-0.8142z"/>
+    <text class="val" x="572" y="325.5" text-anchor="end">0,4 %</text>
+  </g>
+  <line class="rule" x1="28" x2="572" y1="350" y2="350"/>
+  <text class="foot" x="28" y="366">Basis laut Auswertung: 141.648 Codezeilen · lokale Commit-Stände (HEAD).</text>
+  <text class="foot" x="28" y="384">Dokumentierte Ausschlussfilter · Momentaufnahme · Stand: 18.10.2026</text>
+</svg>
