@@ -8,7 +8,6 @@
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ChickenPerry&style=flat-square&color=555555)
 
 </div>
 
