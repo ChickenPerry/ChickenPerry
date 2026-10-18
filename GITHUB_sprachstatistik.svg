@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="410" viewBox="0 0 600 410" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="700" viewBox="0 0 320 560" role="img" aria-labelledby="t d" lang="en">
   <title id="t">Programming Languages – Distribution of the analyzed code</title>
   <desc id="d">Python 65.3%; TypeScript 16.8%; Swift 7.2%; JavaScript 4.1%; Shell 3.5%; CSS 2.0%; HTML 0.7%; Astro 0.4%; PowerShell and PHP combined below 0.1%. Reported basis: 141,648 lines of code excluding blank lines and comments, from selected local commit snapshots (HEAD). Dependencies, build artifacts and detected generated code were excluded using documented filters. Different versions of the same tools may be counted more than once. This is not a complete GitHub activity or code authorship statistic; fork status has not been fully verified for all analyzed repositories. As of 18 Oct 2026.</desc>
   <style>
     .card { fill: #fcfcfb; stroke: #e4e3df; }
-    .h { fill: #0b0b0b; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .sub, .foot { fill: #52514e; font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .foot { fill: #6d6c68; font-size: 11px; }
-    .lbl { fill: #0b0b0b; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .val { fill: #52514e; font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-variant-numeric: tabular-nums; }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .h { fill: #0b0b0b; font-size: 22px; font-weight: 600; }
+    .sub, .foot { fill: #52514e; font-size: 14px; }
+    .foot { fill: #6d6c68; }
+    .lbl { fill: #0b0b0b; font-size: 18px; font-weight: 500; }
+    .val { fill: #52514e; font-size: 18px; font-weight: 500; font-variant-numeric: tabular-nums; }
     .track { fill: #eeede9; }
     .bar { fill: #2a78d6; }
     .rule { stroke: #e4e3df; }
@@ -21,58 +22,61 @@
       .rule { stroke: #2e2e2c; }
     }
   </style>
-  <rect class="card" x="0.5" y="0.5" width="599" height="409" rx="12"/>
-  <text class="h" x="28" y="42">Programming Languages</text>
-  <text class="sub" x="28" y="64">Language distribution · excluding blank lines and comments</text>
+  <rect class="card" x="0.5" y="0.5" width="319" height="559" rx="12"/>
+  <text class="h" x="18" y="36">Programming Languages</text>
+  <text class="sub" x="18" y="61">Code lines, excluding blank lines</text>
+  <text class="sub" x="18" y="79">and comments</text>
   <g><title>Python: 65.3%</title>
-    <text class="lbl" x="28" y="115.5">Python</text>
-    <rect class="track" x="132" y="106.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,106.0h244.27a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-244.27z"/>
-    <text class="val" x="572" y="115.5" text-anchor="end">65.3%</text>
+    <text class="lbl" x="18" y="111">Python</text>
+    <text class="val" x="302" y="111" text-anchor="end">65.3%</text>
+    <rect class="track" x="18" y="123" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="123" width="185.551960" height="8" rx="4"/>
   </g>
   <g><title>TypeScript: 16.8%</title>
-    <text class="lbl" x="28" y="145.5">TypeScript</text>
-    <rect class="track" x="132" y="136.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,136.0h59.76a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-59.76z"/>
-    <text class="val" x="572" y="145.5" text-anchor="end">16.8%</text>
+    <text class="lbl" x="18" y="155">TypeScript</text>
+    <text class="val" x="302" y="155" text-anchor="end">16.8%</text>
+    <rect class="track" x="18" y="167" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="167" width="47.654129" height="8" rx="4"/>
   </g>
   <g><title>Swift: 7.2%</title>
-    <text class="lbl" x="28" y="175.5">Swift</text>
-    <rect class="track" x="132" y="166.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,166.0h23.27a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-23.27z"/>
-    <text class="val" x="572" y="175.5" text-anchor="end">7.2%</text>
+    <text class="lbl" x="18" y="199">Swift</text>
+    <text class="val" x="302" y="199" text-anchor="end">7.2%</text>
+    <rect class="track" x="18" y="211" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="211" width="20.378516" height="8" rx="4"/>
   </g>
   <g><title>JavaScript: 4.1%</title>
-    <text class="lbl" x="28" y="205.5">JavaScript</text>
-    <rect class="track" x="132" y="196.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,196.0h11.53a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-11.53z"/>
-    <text class="val" x="572" y="205.5" text-anchor="end">4.1%</text>
+    <text class="lbl" x="18" y="243">JavaScript</text>
+    <text class="val" x="302" y="243" text-anchor="end">4.1%</text>
+    <rect class="track" x="18" y="255" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="255" width="11.608777" height="8" rx="4"/>
   </g>
   <g><title>Shell: 3.5%</title>
-    <text class="lbl" x="28" y="235.5">Shell</text>
-    <rect class="track" x="132" y="226.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,226.0h9.19a4,4 0 0 1 4,4v2a4,4 0 0 1 -4,4h-9.19z"/>
-    <text class="val" x="572" y="235.5" text-anchor="end">3.5%</text>
+    <text class="lbl" x="18" y="287">Shell</text>
+    <text class="val" x="302" y="287" text-anchor="end">3.5%</text>
+    <rect class="track" x="18" y="299" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="299" width="9.858438" height="8" rx="4"/>
   </g>
   <g><title>CSS: 2.0%</title>
-    <text class="lbl" x="28" y="265.5">CSS</text>
-    <rect class="track" x="132" y="256.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,256.0h3.85a3.851025076245341,3.851025076245341 0 0 1 3.851025076245341,3.851025076245341v2.297949847509318a3.851025076245341,3.851025076245341 0 0 1 -3.851025076245341,3.851025076245341h-3.85z"/>
-    <text class="val" x="572" y="265.5" text-anchor="end">2.0%</text>
+    <text class="lbl" x="18" y="331">CSS</text>
+    <text class="val" x="302" y="331" text-anchor="end">2.0%</text>
+    <rect class="track" x="18" y="343" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="343" width="5.756269" height="8" rx="4"/>
   </g>
   <g><title>HTML: 0.7%</title>
-    <text class="lbl" x="28" y="295.5">HTML</text>
-    <rect class="track" x="132" y="286.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,286.0h1.30a1.303795323619112,1.303795323619112 0 0 1 1.303795323619112,1.303795323619112v7.392409352761776a1.303795323619112,1.303795323619112 0 0 1 -1.303795323619112,1.303795323619112h-1.30z"/>
-    <text class="val" x="572" y="295.5" text-anchor="end">0.7%</text>
+    <text class="lbl" x="18" y="375">HTML</text>
+    <text class="val" x="302" y="375" text-anchor="end">0.7%</text>
+    <rect class="track" x="18" y="387" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="387" width="1.948831" height="8" rx="4"/>
   </g>
   <g><title>Astro: 0.4%</title>
-    <text class="lbl" x="28" y="325.5">Astro</text>
-    <rect class="track" x="132" y="316.0" width="380" height="10" rx="5.0"/>
-    <path class="bar" d="M132,316.0h0.8142a0.8142,0.8142 0 0 1 0.8142,0.8142v8.3716a0.8142,0.8142 0 0 1 -0.8142,0.8142h-0.8142z"/>
-    <text class="val" x="572" y="325.5" text-anchor="end">0.4%</text>
+    <text class="lbl" x="18" y="419">Astro</text>
+    <text class="val" x="302" y="419" text-anchor="end">0.4%</text>
+    <rect class="track" x="18" y="431" width="284" height="8" rx="4"/>
+    <rect class="bar" x="18" y="431" width="1.217017" height="8" rx="4"/>
   </g>
-  <line class="rule" x1="28" x2="572" y1="350" y2="350"/>
-  <text class="foot" x="28" y="366">Reported basis: 141,648 code lines · selected local commits (HEAD).</text>
-  <text class="foot" x="28" y="384">Documented exclusion filters · Snapshot · 18 Oct 2026</text>
+  <line class="rule" x1="18" x2="302" y1="455" y2="455"/>
+  <text class="foot" x="18" y="478">Reported basis: 141,648 code lines</text>
+  <text class="foot" x="18" y="497">Selected commits · Documented filters</text>
+  <text class="foot" x="18" y="516">Other languages combined: &lt;0.1%</text>
+  <text class="foot" x="18" y="537">Snapshot · 18 Oct 2026</text>
 </svg>
