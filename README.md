@@ -64,15 +64,20 @@ from individual applications to connected systems.
 
 ![Language distribution of the analyzed code: Python 65.3%, TypeScript 16.8%, Swift 7.2%, JavaScript 4.1%, Shell 3.5%, CSS 2.0%, HTML 0.7%, Astro 0.4%; other languages combined below 0.1%.](./GITHUB_sprachstatistik.svg)
 
-As of 18 Oct 2026. Reported basis: 141,648 lines of code,
-excluding blank lines and comments, from selected local commit snapshots.
-Dependencies, build artifacts and detected generated code were excluded
-using documented filters. Different versions of the same tools may be
-counted more than once.
+As of **18 Oct 2026** · Reported basis: **141,648 lines of code**
+from selected local commit snapshots.
 
-This is a local snapshot, not a complete GitHub activity or code authorship
-statistic. Fork status has not been fully verified for all analyzed
-repositories.
+This is a local snapshot, not a complete GitHub activity or code authorship statistic.
+
+<details>
+<summary>Methodology and limitations</summary>
+
+- Blank lines and comments were excluded.
+- Dependencies, build artifacts and detected generated code were excluded using documented filters.
+- Different versions of the same tools may be counted more than once.
+- Fork status has not been fully verified for all analyzed repositories.
+
+</details>
 
 ---
 
