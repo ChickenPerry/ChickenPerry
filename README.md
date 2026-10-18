@@ -16,10 +16,7 @@
 ## About Me
 
 Independent developer focused on software architecture,
-artificial intelligence, local language models and automation.
-
-My work combines native application development,
-web technologies, AI infrastructure and intelligent workflows.
+from individual applications to connected systems.
 
 ## Tech Stack
 
@@ -56,11 +53,9 @@ web technologies, AI infrastructure and intelligent workflows.
 
 ## Development Focus
 
-- Native macOS and iOS applications
-- Local AI systems and large language models
-- AI-assisted software engineering
-- Backend services and API integration
-- Workflow automation and system architecture
+- Native macOS and iOS apps, alongside web development
+- Local AI systems, large language models and AI-assisted development
+- Backend services, API integration and workflow automation
 - Data processing and visualization
 
 ---
